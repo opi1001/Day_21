@@ -5,8 +5,15 @@ class Profile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.indigo,
-    );
+    return SafeArea(
+        child: Scaffold(
+      backgroundColor: Colors.teal,
+      body: Container(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [],
+        ),
+      ),
+    ));
   }
 }
